@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <string>
 #include <vector>
 
@@ -51,12 +50,12 @@ int main (int argc, char *argv[]) {
         cout << "-c     celcius" << endl;
         cout << "-f     fahrenheit" << endl;
         cout << "-c     kelvin" << endl;
-        cout << "example: temp -c 22 -f" << endl;
+        cout << "example:temp -c 22 -f" << endl;
         return 2;
     }
     //not enough arguments
     else if (argc < 4) {
-        cout << "not enough arguments to preform convertion (use -h for help)" << endl;
+        cout << "incorrect usage (use -h for help)" << endl;
         return 3;
     }
     // convert temp
